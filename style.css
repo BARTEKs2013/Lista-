@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap");
+
+body {
+  background-image: url("bleblablabe.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Caveat Brush", cursive;
+}
+
+#dodajElement {
+  margin: 0px auto 0px auto;
+  width: 1000px;
+  text-align: center;
+  padding: 10px;
+}
+
+li {
+  margin-left: left;
+  margin-right: ;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+li:hover {
+  color: rgba(0, 0, 0, 0.308);
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+h1 {
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+}
+
+#listaZadan {
+  font-family: "Caveat Brush", cursive;
+  font-size: 32px;
+  width: 500px;
+  background-color: #008321;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  color: #000000;   
+}
+
+#przyciskDodaj, #przyciskDrukuj {
+  width: 250px;
+  height: 50px;
+  background-color: #008321;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  border: 5px solid #000000;
+  text-transform: uppercase;
+}
+
+#przyciskDrukuj:hover, #przyciskDodaj:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+input {
+  width: 330px;
+  height: 40px;
+  font-family: "Caveat Brush", cursive;
+  font-size: 25px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 180%;
+}
+
+@media print {
+    @page {
+        margin:0;
+    }
+    body {
+        margin:0;
+        padding: 0;
+    }
+    p {
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
